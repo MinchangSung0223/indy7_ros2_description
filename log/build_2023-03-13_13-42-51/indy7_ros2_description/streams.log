@@ -1,0 +1,55 @@
+[1.100s] Invoking command in '/home/sung/ros2_humble/src/indy7_ros2_description': PYTHONPATH=/home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/prefix_override:/home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/indy7_ros2_description build --build-base /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build install --record /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/install.log --single-version-externally-managed
+[1.519s] running egg_info
+[1.519s] creating build/indy7_ros2_description/indy7_ros2_description.egg-info
+[1.530s] writing build/indy7_ros2_description/indy7_ros2_description.egg-info/PKG-INFO
+[1.531s] writing dependency_links to build/indy7_ros2_description/indy7_ros2_description.egg-info/dependency_links.txt
+[1.531s] writing entry points to build/indy7_ros2_description/indy7_ros2_description.egg-info/entry_points.txt
+[1.531s] writing requirements to build/indy7_ros2_description/indy7_ros2_description.egg-info/requires.txt
+[1.531s] writing top-level names to build/indy7_ros2_description/indy7_ros2_description.egg-info/top_level.txt
+[1.531s] writing manifest file 'build/indy7_ros2_description/indy7_ros2_description.egg-info/SOURCES.txt'
+[1.532s] reading manifest file 'build/indy7_ros2_description/indy7_ros2_description.egg-info/SOURCES.txt'
+[1.533s] writing manifest file 'build/indy7_ros2_description/indy7_ros2_description.egg-info/SOURCES.txt'
+[1.534s] running build
+[1.534s] running build_py
+[1.534s] creating /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build
+[1.534s] creating /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib
+[1.534s] creating /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib/indy7_ros2_description
+[1.534s] copying indy7_ros2_description/__init__.py -> /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib/indy7_ros2_description
+[1.534s] copying indy7_ros2_description/state_publisher.py -> /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib/indy7_ros2_description
+[1.535s] running install
+[1.535s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.535s]   warnings.warn(
+[1.535s] running install_lib
+[1.536s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description
+[1.536s] copying /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib/indy7_ros2_description/__init__.py -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description
+[1.536s] copying /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build/lib/indy7_ros2_description/state_publisher.py -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description
+[1.538s] byte-compiling /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description/__init__.py to __init__.cpython-310.pyc
+[1.539s] byte-compiling /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description/state_publisher.py to state_publisher.cpython-310.pyc
+[1.540s] running install_data
+[1.541s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/ament_index
+[1.541s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/ament_index/resource_index
+[1.541s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/ament_index/resource_index/packages
+[1.541s] copying resource/indy7_ros2_description -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/ament_index/resource_index/packages
+[1.542s] copying package.xml -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description
+[1.542s] copying launch/indy7.launch.py -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description
+[1.542s] copying urdf/indy7.urdf.xml -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description
+[1.542s] copying urdf/indy7.rviz -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description
+[1.542s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes
+[1.542s] creating /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual
+[1.542s] copying meshes/visual/Indy7_5.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.543s] copying meshes/visual/Indy7_6.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.543s] copying meshes/visual/neck1.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.543s] copying meshes/visual/neck.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.543s] copying meshes/visual/body.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.543s] copying meshes/visual/Indy7_1.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.544s] copying meshes/visual/Indy7_2.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.544s] copying meshes/visual/Indy7_4.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.544s] copying meshes/visual/Indy7_3.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.544s] copying meshes/visual/Indy7_0.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.544s] copying meshes/visual/table.stl -> /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/share/indy7_ros2_description/meshes/visual/
+[1.549s] running install_egg_info
+[1.552s] Copying build/indy7_ros2_description/indy7_ros2_description.egg-info to /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages/indy7_ros2_description-0.0.0-py3.10.egg-info
+[1.553s] running install_scripts
+[1.590s] Installing state_publisher script to /home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/indy7_ros2_description
+[1.590s] writing list of installed files to '/home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/install.log'
+[1.608s] Invoked command in '/home/sung/ros2_humble/src/indy7_ros2_description' returned '0': PYTHONPATH=/home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/prefix_override:/home/sung/ros2_humble/src/indy7_ros2_description/install/indy7_ros2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/indy7_ros2_description build --build-base /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/build install --record /home/sung/ros2_humble/src/indy7_ros2_description/build/indy7_ros2_description/install.log --single-version-externally-managed
